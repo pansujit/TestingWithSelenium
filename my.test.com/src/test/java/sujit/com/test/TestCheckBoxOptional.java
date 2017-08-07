@@ -1,5 +1,6 @@
 package sujit.com.test;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -24,7 +25,7 @@ public class TestCheckBoxOptional {
 	//Initialize the web browser
 	@Test
 	public void OpenBrowser() throws Throwable{
-		String path = System.getProperty("src/main/resources/geckodriver");
+		String path = System.getProperty(new File("src/main/resources/geckodriver").getAbsolutePath());
 		System.out.println("Path is "+ path);
 		System.setProperty("webdriver.gecko.driver", path);
 		
