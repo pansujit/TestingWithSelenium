@@ -5,9 +5,9 @@
     
      <classes>
        <class name="sujit.com.test.TestCheckBoxOptional" />
-       <class name="sujit.com.test.TestCheckBoxRecomm" />
+      <!--  X <class name="sujit.com.test.TestCheckBoxRecomm" />
        <class name="sujit.com.test.TestRedButton" />
-       <class name="sujit.com.test.TestTextBox" />
+       <class name="sujit.com.test.TestTextBox" />-->
     </classes>
     
   </test>

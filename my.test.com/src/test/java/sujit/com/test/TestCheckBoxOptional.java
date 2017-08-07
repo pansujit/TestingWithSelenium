@@ -24,6 +24,8 @@ public class TestCheckBoxOptional {
 	//Initialize the web browser
 @Test
 public void OpenBrowser() throws Throwable{
+	System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+	
 	 driver= new FirefoxDriver();
 	 driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
 	 driver.get("https://live.runmyprocess.com/pub/621758689/appli/25209?P_mode=LIVE&P_language=fr");
