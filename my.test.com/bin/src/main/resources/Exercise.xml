@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="exercise" verbose="1" >
+  <test name="sujit.com.test" >
+    
+     <classes>
+       <class name="sujit.com.test.TestCheckBoxOptional" />
+      <!--  X <class name="sujit.com.test.TestCheckBoxRecomm" />
+       <class name="sujit.com.test.TestRedButton" />
+       <class name="sujit.com.test.TestTextBox" />-->
+    </classes>
+    
+  </test>
+    
+    
+  
+</suite>
