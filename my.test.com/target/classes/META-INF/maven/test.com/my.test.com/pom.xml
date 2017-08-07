@@ -48,7 +48,7 @@
 <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 </suiteXmlFiles>
 <systemPropertyVariables>
-<propertyName>${project.basedir}/src/main/resources/geckodriver</propertyName>
+<propertyName>${project.basedir}/src/main/resources/geckodriver.exe</propertyName>
 </systemPropertyVariables>
 </configuration>
 </plugin>
