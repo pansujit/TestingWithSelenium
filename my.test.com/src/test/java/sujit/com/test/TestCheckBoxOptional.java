@@ -24,7 +24,7 @@ public class TestCheckBoxOptional {
 	//Initialize the web browser
 	@Test
 	public void OpenBrowser() throws Throwable{
-		String path = System.getProperty("src/main/resources/geckodriver.exe");
+		String path = System.getProperty("src/main/resources/geckodriver");
 		System.out.println("Path is "+ path);
 		System.setProperty("webdriver.gecko.driver", path);
 		
